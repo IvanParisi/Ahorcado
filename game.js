@@ -200,7 +200,7 @@ function firstWord()
     }
     flag = true
     getGoodWords(word)
-    console.log(goodWords)
+   
 }
 
 function getGoodWords(word) 
