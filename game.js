@@ -249,7 +249,8 @@ function wrongLetter(key)
     {
         counter = counter + 1
         updateImage()
-        wrongLetterElement(key)
+        keyU = key.toUpperCase()
+        wrongLetterElement(keyU)
         return false;
     } 
     return true;
